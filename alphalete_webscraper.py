@@ -7,7 +7,7 @@ request_page = urlopen(url_scrape)
 page_html = request_page.read()
 request_page.close()
 
-html_soup = soup(page_html, "html.parser")
+html_soup = soup(page_html, "html.parser") 
 
 products = html_soup.find_all("div", class_="product-item-details")
 
