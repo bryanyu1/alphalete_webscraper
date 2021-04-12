@@ -1,4 +1,4 @@
-from urllib.request import urlopen
+from urllib.request import urlopen 
 from bs4 import BeautifulSoup as soup
 
 url_scrape = "https://alphaleteathletics.com/collections/mens"
