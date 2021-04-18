@@ -1,6 +1,6 @@
 from urllib.request import urlopen 
 from bs4 import BeautifulSoup as soup
-
+ 
 url_scrape = "https://alphaleteathletics.com/collections/mens"
 
 request_page = urlopen(url_scrape) 
